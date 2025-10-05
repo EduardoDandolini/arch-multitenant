@@ -10,6 +10,7 @@ import java.sql.SQLException;
 
 @Component
 public class MultiTenantConnectionProviderImpl implements MultiTenantConnectionProvider  {
+
     private final DataSource dataSource;
 
     public MultiTenantConnectionProviderImpl(DataSource dataSource) {

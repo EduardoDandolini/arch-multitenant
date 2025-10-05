@@ -18,7 +18,7 @@ import java.util.Map;
 public class HibernateConfig {
 
     private final JpaProperties jpaProperties;
-    private final String jpaPathPackagesToScan = " com.arch.multitenancy.*";
+    private final String jpaPathPackagesToScan = "com.arch.multitenancy.*";
 
     public HibernateConfig(JpaProperties jpaProperties) {
         this.jpaProperties = jpaProperties;
